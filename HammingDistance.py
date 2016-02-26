@@ -32,4 +32,11 @@ def minHammingDist(arr):
 					minHammingDistance = tempDist
 	return minHammingDistance
 
-print ("Minimum Hamming Distance: %i" % minHammingDist(code))
+print ("Minimum Hamming Distance: %i" % minHammingDist(code)
+
+
+# CS158 HW:
+	# Errors Detected where d is distance and e is number of errors detected: d = e + 1.
+		# Our min distance is 1 so we can detect 0 errors.
+	# Errors corrected where d is distance and e is number of errors corrected: d = 2e+1.
+		# Our min distance is 1 so we can detect 0 errors.
