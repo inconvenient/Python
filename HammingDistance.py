@@ -28,12 +28,12 @@ def minHammingDist(arr):
 		for b in arr:
 			if a != b:
 				tempDist = hammingDistance(a, b)
+				print ("Computing " + str(a) + " and " + str(b) + ". MHD = " + str(tempDist))
 				if tempDist < minHammingDistance:
 					minHammingDistance = tempDist
 	return minHammingDistance
 
-print ("Minimum Hamming Distance: %i" % minHammingDist(code)
-
+print ("Minimum Hamming Distance: %i" % minHammingDist(code))
 
 # CS158 HW:
 	# Errors Detected where d is distance and e is number of errors detected: d = e + 1.
